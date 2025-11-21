@@ -8,7 +8,7 @@ content-type: application/json
     "num": 3
 }
 
-### 推薦商品 API（備用）
+### 推薦商品 API（備用）  
 POST https://g7z8zv2a5e.execute-api.ap-northeast-1.amazonaws.com/recom_product
 accept: application/json
 content-type: application/json
