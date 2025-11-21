@@ -1,0 +1,355 @@
+{
+    "allQuizCards": {
+        "fashion": {
+            "category": "服飾",
+            "desc": "從風格靈感開始，發現你的穿搭故事，締造專屬於你的代表之作。",
+            "routes": [{
+                    "title": "H&M | 探索你的個人穿搭風格",
+                    "description": "通過這個互動測驗，了解你的時尚偏好，獲取專屬於你的穿搭建議。",
+                    "imageUrl": "https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+                },
+                {
+                    "title": "ZARA | 季節潮流穿搭推薦",
+                    "description": "根據你的體型和喜好，提供最適合的季節性穿搭建議。",
+                    "imageUrl": "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+
+                },
+                {
+                    "title": "UNIQLO | 基本款穿搭指南",
+                    "description": "如何利用基本款單品打造多變風格，適合所有年齡層的穿搭建議。",
+                    "imageUrl": "https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+
+                },
+                {
+                    "title": "GUCCI | 奢華時尚造型測驗",
+                    "description": "探索高端時尚，找到能代表你獨特品味的奢華單品與搭配。",
+                    "imageUrl": "https://images.unsplash.com/photo-1587702094146-23108c4faff3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+
+                },
+                {
+                    "title": "Nike | 運動潮流風格匹配",
+                    "description": "無論是健身房還是街頭，找到最適合你的運動時尚裝備。",
+                    "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+
+                },
+                {
+                    "title": "ASOS | 多元風格探索之旅",
+                    "description": "從波西米亞到極簡主義，發現並定義你自己的時尚宣言。",
+                    "imageUrl": "https://images.unsplash.com/photo-1523381294911-8d3cead13475?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+
+                }
+            ]
+        },
+        "beauty": {
+            "category": "美妝保養",
+            "desc": "從基礎保養到專業彩妝，讓你掌握完美護膚與妝容的秘訣",
+            "routes": [{
+                    "title": "蘭蔻 | 認識肌膚，成為保養專家",
+                    "description": "深入了解你的肌膚需求，打造專屬保養程序，讓你擁有理想膚質。",
+                    "imageUrl": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+                },
+                {
+                    "title": "雅詩蘭黛 | 探索你的美妝偏好",
+                    "description": "通過我們精心設計的測驗，找出最適合你的彩妝產品和色調。",
+                    "imageUrl": "https://images.unsplash.com/photo-1596704017254-9dc13b87113a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+                },
+                {
+                    "title": "資生堂 | 定制你的護膚方案",
+                    "description": "了解你的肌膚需求，提供最適合的護膚解決方案。",
+                    "imageUrl": "https://images.unsplash.com/photo-1583914235843-4b395fc4d2a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+                }
+            ]
+        },
+        "electronics": {
+            "category": "電子配件",
+            "desc": "智能科技融入生活，打造個人化的數位體驗",
+            "routes": [{
+                    "title": "Apple | 找到最適合你的智能設備",
+                    "description": "根據你的使用需求和習慣，推薦最適合你的Apple產品。",
+                    "imageUrl": "https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+                },
+                {
+                    "title": "Samsung | 智能家居產品推薦",
+                    "description": "了解如何通過Samsung產品建立智能家居生態系統。",
+                    "imageUrl": "https://images.unsplash.com/photo-1550009158-9ebf69173e03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+                },
+                {
+                    "title": "Bose | 音響設備個人化選擇",
+                    "description": "根據你的聆聽習慣和空間需求，推薦最適合的音響設備。",
+                    "imageUrl": "https://images.unsplash.com/photo-1558089687-f282ffcbc0d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+                }
+            ]
+        },
+        "health": {
+            "category": "保健食品",
+            "desc": "全方位的營養補充計劃，為你的健康生活加分",
+            "routes": [{
+                    "title": "GNC | 個人健康需求分析",
+                    "description": "通過我們的健康測驗，找出最適合你的保健品和營養補充劑。",
+                    "imageUrl": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+                },
+                {
+                    "title": "白蘭氏 | 養生保健方案",
+                    "description": "根據你的年齡和生活方式，推薦最適合的保健食品組合。",
+                    "imageUrl": "https://images.unsplash.com/photo-1532153975070-2e9ab71f1b14?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+                },
+                {
+                    "title": "桂格 | 營養均衡計劃",
+                    "description": "幫助你了解自己的營養需求，設計合理的膳食補充方案。",
+                    "imageUrl": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+                }
+            ]
+        },
+        "fortune": {
+            "category": "開運好物",
+            "desc": "結合傳統文化與現代設計，為你的生活增添好運能量",
+            "routes": [{
+                    "title": "故宮文創 | 個人風水吉祥物",
+                    "description": "根據你的生肖和出生年份，推薦最適合的開運配飾。",
+                    "imageUrl": "https://images.unsplash.com/photo-1531973486364-5fa64260d75b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+                },
+                {
+                    "title": "紫微星座 | 個人運勢分析",
+                    "description": "通過紫微星座測驗，了解你的運勢並推薦合適的開運物品。",
+                    "imageUrl": "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+                },
+                {
+                    "title": "香氛推薦 | 提升居家風水",
+                    "description": "選擇適合你的香氛，改善居家氛圍和運勢。",
+                    "imageUrl": "https://images.unsplash.com/photo-1602928298849-325cec8771a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+
+                    "routeId": "1735778034863",
+                    "brand": "INFS"
+                }
+            ]
+        }
+    },
+    "allProducts": {
+        "Lancome": {
+            "desc": "法國奢華美妝品牌，專注於高端護膚與彩妝產品",
+            "products": [{
+                    "title": "Ordinary Combo",
+                    "currentPrice": "3,990",
+                    "originalPrice": "4,790",
+                    "imageUrl": "https://images.unsplash.com/photo-1596462502278-27bfdc403348",
+                    "brand": "Lancome"
+                },
+                {
+                    "title": "蠶絲精華霜",
+                    "currentPrice": "6,990",
+                    "originalPrice": "8,290",
+                    "imageUrl": "https://images.unsplash.com/photo-1596704017254-9dc13b87113a",
+                    "brand": "Lancome"
+                },
+                {
+                    "title": "有機純素保養套裝",
+                    "currentPrice": "6,990",
+                    "originalPrice": "8,290",
+                    "imageUrl": "https://images.unsplash.com/photo-1583914235843-4b395fc4d2a8",
+                    "brand": "Lancome"
+                }
+            ]
+        },
+        "PAULA'S CHOICE": {
+            "desc": "專業護膚品牌，以科學實證為基礎的配方聞名",
+            "products": [{
+                    "title": "毛孔調理精華",
+                    "currentPrice": "1,280",
+                    "originalPrice": "1,580",
+                    "imageUrl": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908",
+                    "brand": "PAULA'S CHOICE"
+                },
+                {
+                    "title": "2% BHA 精華液",
+                    "currentPrice": "2,980",
+                    "originalPrice": "3,280",
+                    "imageUrl": "https://images.unsplash.com/photo-1598452963314-b09f397486c6",
+                    "brand": "PAULA'S CHOICE"
+                },
+                {
+                    "title": "抗老化修護組合",
+                    "currentPrice": "4,580",
+                    "originalPrice": "5,280",
+                    "imageUrl": "https://images.unsplash.com/photo-1598453852873-fe8c34e28e1c",
+                    "brand": "PAULA'S CHOICE"
+                }
+            ]
+        }
+    },
+    "heroImages": [
+        {
+            "filename": "img_5862_957.png",
+            "class": "figma-img-5862-957"
+        },
+        {
+            "filename": "img_5862_958.png",
+            "class": "figma-img-5862-958"
+        },
+        {
+            "filename": "img_5862_959.png",
+            "class": "figma-img-5862-959"
+        },
+        {
+            "filename": "img_5862_960.png",
+            "class": "figma-img-5862-960"
+        },
+        {
+            "filename": "img_5862_962.png",
+            "class": "figma-img-5862-962"
+        },
+        {
+            "filename": "img_5862_964.png",
+            "class": "figma-img-5862-964"
+        },
+        {
+            "filename": "img_5862_965.png",
+            "class": "figma-img-5862-965"
+        },
+        {
+            "filename": "img_5862_967.png",
+            "class": "figma-img-5862-967"
+        },
+        {
+            "filename": "img_5862_969.png",
+            "class": "figma-img-5862-969"
+        },
+        {
+            "filename": "img_5862_971.png",
+            "class": "figma-img-5862-971"
+        },
+        {
+            "filename": "img_5862_974.png",
+            "class": "figma-img-5862-974"
+        },
+        {
+            "filename": "img_5862_975.png",
+            "class": "figma-img-5862-975"
+        },
+        {
+            "filename": "img_5862_977.png",
+            "class": "figma-img-5862-977"
+        },
+        {
+            "filename": "img_5862_978.png",
+            "class": "figma-img-5862-978"
+        },
+        {
+            "filename": "img_5862_980.png",
+            "class": "figma-img-5862-980"
+        },
+        {
+            "filename": "img_5862_982.png",
+            "class": "figma-img-5862-982"
+        },
+        {
+            "filename": "img_5862_983.png",
+            "class": "figma-img-5862-983"
+        },
+        {
+            "filename": "img_5862_984.png",
+            "class": "figma-img-5862-984"
+        }
+    ],
+    "categories": [
+        {
+            "name": "服飾",
+            "active": true
+        },
+        {
+            "name": "美妝保養",
+            "active": false
+        },
+        {
+            "name": "電子配件",
+            "active": false
+        },
+        {
+            "name": "保健食品",
+            "active": false
+        },
+        {
+            "name": "開運好物",
+            "active": false
+        }
+    ],
+    "quizCards": [
+        {
+            "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+            "title": "蘭蔻 | 認識肌膚，成為保養專家",
+            "description": "導購計畫想協助找尋商品的內容。服飾類別最好是以最佳穿搭、休閒穿搭等去做行銷描述。"
+        }
+    ],
+    "quizDetail": {
+        "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+        "title": "JERSCY | 穿搭也可以很簡單",
+        "description": "導購計畫想協助找尋商品的內容。服飾類別最好是以最佳穿搭、休閒穿搭等去做行銷描述。",
+        "iframeUrl": ""
+    },
+    "filterButtons": [
+        {
+            "type": "filled",
+            "text": "全部品牌"
+        },
+        {
+            "type": "borderless",
+            "text": "精選品牌"
+        }
+    ],
+    "products": [
+        {
+            "image": "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+            "title": "Ordinary Combo",
+            "currentPrice": "3,990",
+            "originalPrice": "4,790"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1596704017254-9dc13b87113a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+            "title": "蠶絲精華霜",
+            "currentPrice": "6,990",
+            "originalPrice": "8,290"
+        },
+        {
+            "image": "https://images.unsplash.com/photo-1583914235843-4b395fc4d2a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80",
+            "title": "有機純素保養套裝",
+            "currentPrice": "6,990",
+            "originalPrice": "8,290"
+        }
+    ],
+    "modalQuizUrl": ""
+}

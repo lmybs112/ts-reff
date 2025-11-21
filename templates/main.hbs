@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>infFITS - 智能購物平台</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@350;400;500;700&family=Figtree:wght@400;700&family=IBM+Plex+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <div class="container">
+        <!-- 英雄區塊 -->
+        <div class="hero">
+            <div class="hero-desktop-layout">
+                <div class="hero-desktop-image-grid">
+                    <!-- SET 1 of images and mask -->
+                    {{#each heroImages}}
+                    <img
+                        src="images/hero-desktop/{{filename}}"
+                        alt="Hero image decorative background"
+                        class="hero-desktop-img {{class}}"
+                    />
+                    {{/each}}
+                    <div class="hero-mask-overlay figma-mask-set1"></div>
+
+                    <!-- SET 2 of images and mask (clones for infinite scroll) -->
+                    {{#each heroImages}}
+                    <img
+                        src="images/hero-desktop/{{filename}}"
+                        alt="Hero image decorative background"
+                        class="hero-desktop-img {{class}} figma-img-set2"
+                    />
+                    {{/each}}
+                    <div class="hero-mask-overlay figma-mask-set2"></div>
+                </div>
+            </div>
+            <div class="hero-frame">
+                <div class="hero-scroll hero-scroll--up">
+                    <div class="hero-scroll-content"></div>
+                </div>
+                <div class="hero-scroll hero-scroll--down">
+                    <div class="hero-scroll-content"></div>
+                </div>
+            </div>
+            <h1 class="hero-text">
+                你愛的商品，<br />
+                總是自動<br />找上你。
+            </h1>
+        </div>
+
+        <!-- 主要內容區域 -->
+        <div class="content">
+            <div class="back-button">
+                <div>
+                    <svg
+                        width="39"
+                        height="40"
+                        viewBox="0 0 39 40"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                            d="M19.3961 2.74161L1.99609 20.1416L19.3961 37.5416"
+                            stroke="#1E1E19"
+                            stroke-width="3.625"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                        <path
+                            d="M36.7961 20.1416H1.99609"
+                            stroke="#1E1E19"
+                            stroke-width="3.625"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                </div>
+            </div>
+            <div class="tab-buttons">
+                <button class="tab-button active">測驗專區</button>
+                <button class="tab-button">推薦結果</button>
+            </div>
+
+            <!-- 測驗專區內容 -->
+            <div class="tab-content quiz-section active">
+                <p class="content-description category-description" data-fashion="{{allQuizCards.fashion.desc}}" 
+                   data-beauty="{{allQuizCards.beauty.desc}}"
+                   data-electronics="{{allQuizCards.electronics.desc}}"
+                   data-health="{{allQuizCards.health.desc}}"
+                   data-fortune="{{allQuizCards.fortune.desc}}">
+                    {{allQuizCards.fashion.desc}}
+                </p>
+                <!-- 類別選擇 -->
+                <div class="category-quiz-wrapper active">
+                    <div class="category-buttons">
+                        <!-- 类别按钮将由 JavaScript 动态生成 -->
+                    </div>
+
+                    <!-- 測驗卡片 -->
+                    <div class="quiz-card-container-wrapper">
+                        <div class="quiz-card-container swiper">
+                            <div class="swiper-wrapper">
+                                {{#each allQuizCards.fashion.routes}}
+                                <div class="swiper-slide">
+                                    <div class="quiz-card">
+                                        <div class="quiz-image" style="background-image: url({{imageUrl}})"></div>
+                                        <div class="quiz-content">
+                                            <h3 class="quiz-title">{{title}}</h3>
+                                            <p class="quiz-description">{{description}}</p>
+                                            <button class="quiz-button">開始測驗</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                {{/each}}
+                                {{#each allQuizCards.beauty.routes}}
+                                <div class="swiper-slide">
+                                    <div class="quiz-card">
+                                        <div class="quiz-image" style="background-image: url({{imageUrl}})"></div>
+                                        <div class="quiz-content">
+                                            <h3 class="quiz-title">{{title}}</h3>
+                                            <p class="quiz-description">{{description}}</p>
+                                            <button class="quiz-button">開始測驗</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                {{/each}}
+                                {{#each allQuizCards.electronics.routes}}
+                                <div class="swiper-slide">
+                                    <div class="quiz-card">
+                                        <div class="quiz-image" style="background-image: url({{imageUrl}})"></div>
+                                        <div class="quiz-content">
+                                            <h3 class="quiz-title">{{title}}</h3>
+                                            <p class="quiz-description">{{description}}</p>
+                                            <button class="quiz-button">開始測驗</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                {{/each}}
+                                {{#each allQuizCards.health.routes}}
+                                <div class="swiper-slide">
+                                    <div class="quiz-card">
+                                        <div class="quiz-image" style="background-image: url({{imageUrl}})"></div>
+                                        <div class="quiz-content">
+                                            <h3 class="quiz-title">{{title}}</h3>
+                                            <p class="quiz-description">{{description}}</p>
+                                            <button class="quiz-button">開始測驗</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                {{/each}}
+                                {{#each allQuizCards.fortune.routes}}
+                                <div class="swiper-slide">
+                                    <div class="quiz-card">
+                                        <div class="quiz-image" style="background-image: url({{imageUrl}})"></div>
+                                        <div class="quiz-content">
+                                            <h3 class="quiz-title">{{title}}</h3>
+                                            <p class="quiz-description">{{description}}</p>
+                                            <button class="quiz-button">開始測驗</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                {{/each}}
+                            </div>
+                        </div>
+                        <div class="arrows">
+                            <button class="arrow left"></button>
+                            <button class="arrow right"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="quiz-detail-container">
+                    <div class="quiz-detail-card">
+                        <img src="" alt="測驗圖片" class="quiz-detail-image" />
+                        <div class="quiz-detail-content">
+                            <h3 class="quiz-detail-title">JERSCY | 穿搭也可以很簡單</h3>
+                            <p class="quiz-detail-description">
+                                導購計畫想協助找尋商品的內容。服飾類別最好是以最佳穿搭、休閒穿搭等去做行銷描述。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="quiz-detail-iframe">
+                        <iframe id="quizFrame--desktop" src="" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 推薦結果內容 -->
+            <div class="tab-content result-section">
+                <p class="content-description">
+                    {{#with (lookup allProducts (first (keys allProducts)))}}
+                        {{desc}}
+                    {{/with}}
+                </p>
+
+                <!-- 品牌篩選按鈕 -->
+                <div class="filter-buttons">
+                    {{#each allProducts}}
+                        <button class="filter-btn {{#if @first}}filled{{else}}borderless{{/if}}">{{@key}}</button>
+                    {{/each}}
+                </div>
+
+                <!-- 商品列表 -->
+                <div class="product-list">
+                    {{#with (lookup allProducts (first (keys allProducts)))}}
+                        {{#each products}}
+                        <div class="product-card">
+                            <div class="product-image" style="background-image: url({{imageUrl}})"></div>
+                            <div class="product-info">
+                                <h3 class="product-title">{{title}}</h3>
+                                <div class="price-info">
+                                    <span class="price-current">$ {{currentPrice}}</span>
+                                    <span class="price-original">$ {{originalPrice}}</span>
+                                </div>
+                            </div>
+                        </div>
+                        {{/each}}
+                    {{/with}}
+                </div>
+            </div>
+        </div>
+
+        <!-- 頁尾 -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3 class="logo-text">infFITS</h3>
+                </div>
+                <div class="footer-info">
+                    <div class="footer-contact">
+                        <h4>聯絡資訊</h4>
+                        <div class="contact-links">
+                            <a href="tel:+88635772058">(03) 5772058</a>
+                            <a href="mailto:contact@inffits.com">contact@inffits.com</a>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <h4>infFITS</h4>
+                        <div class="links">
+                            <a href="#">隱私權聲明</a>
+                            <a href="#">使用條款</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                2025 Copyright by infFITS. All rights reserved.
+            </div>
+        </footer>
+
+        <!-- Loading 畫面 -->
+        <div class="loading-screen">
+            <div class="loading-container">
+                <div class="loading-spinner">
+                    <p class="loading-text">Loading...</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="quizModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <div class="modal-header-content">
+                    <h2 class="modal-title">探索你的<br />專屬妝容語言</h2>
+                    <p class="modal-description">
+                        從你的靈感起點，感知肌膚的細膩需求，雕琢專屬於你的妝容語言。
+                    </p>
+                </div>
+                <iframe id="quizFrame" src="" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</body>
+</html> 
