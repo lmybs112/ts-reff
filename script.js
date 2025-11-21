@@ -822,7 +822,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
 
     const actualQuizUrl =
-      "http://127.0.0.1:5502/iframe_container_module.html?d=referral";
+      "https://ts-iframe-v2.vercel.app/iframe_container_module.html?d=referral";
     // console.log(
     //   `Attempting to open quiz: ${activeQuizCard.title} with URL: ${actualQuizUrl}`
     // );
@@ -933,7 +933,7 @@ document.addEventListener("DOMContentLoaded", async function () {
           quizFrameDesktop = document.getElementById("quizFrame--desktop");
           quizFrameDesktop.src = "";
           quizFrameDesktop.src =
-            "http://127.0.0.1:5502/iframe_container_module.html?d=referral";
+            "https://ts-iframe-v2.vercel.app/iframe_container_module.html?d=referral";
           quizFrameDesktop.onload = function () {
             console.log("iframe has loaded. Sending postMessage.");
             const iframe_preview_obj = {

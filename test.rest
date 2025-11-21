@@ -17,3 +17,15 @@ content-type: application/json
     "Brand": "JSY",
     "num": 3
 }
+
+
+###
+
+POST https://api.inffits.com/pid_get_copilot_status/model
+accept: application/json
+content-type: application/json
+
+{
+  "Brand": "DABE",
+  "productid": "10108161"
+}
